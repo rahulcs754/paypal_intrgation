@@ -30,9 +30,9 @@ this is demo of paypal intregation
 <?php
   
 //sandbox
-//$paypalClientID = 'AT9W81DtgnP3hZymn1cfOoqiV1Bu65vUxBbYpfDY0LEIWD-lpCYHnPmKLYVmRUuFH4Z747c-wzcKlqPd';
+//$paypalClientID = 'sandbox_id(client id)';
 //live 
-$paypalClientID = 'AaH7wvfcjvO0SjsAOckf7rO0_CznTQCo7LZfohGxWiFKzMjUHrREwriRs9KfLnkZq1cMOrNNJK6kr1bS';
+$paypalClientID = 'live_id';
 $productDataPrice = $this->Common_Model->priceforpropertyset();
 ?>
 
